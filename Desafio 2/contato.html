@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<style>
+    .principal{
+        display: flex;
+        margin: none;
+    }
+
+    .div1{
+       padding: 30px;
+       padding-left: 40px;
+    }
+
+    .sidebar{
+        width: 15%;
+        height: 550px;
+        padding-top: 50px;
+        padding-left: auto;
+        padding-right: auto;
+        line-height: 50px;
+        background-color: rgba(80, 23, 134, 0.269);
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .cabecalho{
+        display: flex;
+        gap: 40px;
+    }
+
+    header{
+        padding-top: 10px;
+        padding-left: 30px;
+        text-align: center;
+        font-size: 80px;
+    }
+
+    .logo{
+        width: 100px;
+        text-align: center;
+    }
+
+    footer{
+        height: 80px;
+        text-align: center;
+        padding-top: 30px;
+        color: blueviolet;
+    }
+
+    .button{
+        color: white;
+        background-color: blueviolet;
+    }
+
+    .sobre{
+        padding-top: 20px;
+        padding-left: 30px;
+        height: 350px;
+        line-height: 20px; 
+    }
+
+</style>
+
+<body>
+    <div class="principal">
+        <div class="sidebar">
+            <a href="index.html"><button class="button">Página inicial</button></a>
+            <a href="tabela.html"><button class="button">Horário de atendimento</button></a>
+        </div>
+
+        <div class="div1">
+            <div class="cabecalho">
+                <div>
+                    <img class="logo" src="logo.jpg" alt="">
+                </div>
+                <header>
+                    Clínica Psico Délic
+                </header>
+            </div>
+           
+
+            <section class="sobre">
+                <h2>Preencha o formulário para entrar em contato:</h2><br>
+                <form action="">
+                    <label name="nome">Nome</label>
+                    <input type="text" name="nome"><br>
+
+                    <label name="email">Email</label>
+                    <input type="email" name="email"><br>
+
+                    <label name="assunto">Email</label>
+                    <input type="text" name="assunto"><br>
+
+                    <label name="mensagem">Mensagem</label>
+                    <textarea name="mensagem" cols="30" rows="10"></textarea><br>
+
+                    <label name="nome">Nome</label>
+                    <input type="text" name="nome">
+
+                    <button type="submit">enviar</button>
+                    <button>limpar</button>
+
+                </form>
+                
+            </section>
+
+            <footer>
+                <strong>Clinica Psico Délica</strong><br>
+                <strong> Avenida Comendador Pereira Inácio, 950 - Jardim Vergueiro - Sorocaba/SP</strong>
+            </footer>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
